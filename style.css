@@ -209,20 +209,6 @@ header h1 {
 .mini_main-nav li.current_page_parent a {
 	color:#5fb4d4;
 }
-.mini_main-nav li.highlight a {
-	background-color: #E89600;
-    color: #fff;
-    padding: 10px;
-    border-radius: 4px;
-	-webkit-transition: all 0.3s ease-in-out;
-  	-moz-transition: all 0.3s ease-in-out;
-  	-ms-transition: all 0.3s ease-in-out;
-  	-o-transition: all 0.3s ease-in-out;
-  	transition: all 0.3s ease-in-out;
-}
-.mini_main-nav li.highlight a:hover {
-	background-color: #2E9DC7;	
-}
 .mini_open-mobile-nav {
 	display:none;
 	background: #2E9DC7;

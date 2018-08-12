@@ -3,8 +3,8 @@
     	<div class="mini_welcome-overlay"></div>
     	<div class="mini_wrap">
         	<div class="mini_welcome-intro">
-            	<h1 class="fade-in">Miniman <span>Web Design</span></h1>
-                <h2 class="fade-in">Freelance Web Design and Development in Stirlingshire, Scotland</h2>
+            	<h1 class="fade-in">Creating Your Beautiful, High Performing Online presence</h1>
+                <h2 class="fade-in">Miniman | Mike Bishop, UK Freelance Web Designer &amp; Developer based in Stirling</h2>
             </div>
         </div>
     </section>

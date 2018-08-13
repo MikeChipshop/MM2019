@@ -124,7 +124,14 @@ body.home.fixed .mini_main-header {
   	display: -moz-box;
   	display: -ms-flexbox;
   	display: -webkit-flex;
-  	display: flex;
+	display: flex;
+	-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+	max-width:100%;
 }
 .mini_logo {
 	-webkit-box-flex: 1;
@@ -132,6 +139,18 @@ body.home.fixed .mini_main-header {
     -webkit-flex: 1;
   	-ms-flex: 1;
   	flex: 1;
+}
+.mini_logo h1 {
+	font-size: 22px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .mini_nav {
 	-webkit-box-flex: 7;
@@ -141,7 +160,6 @@ body.home.fixed .mini_main-header {
   	flex: 7;
 }
 .mini_main-header img {
-	display:inline-block;
 	margin-right:10px;
 }
 .mini_blue-man {
@@ -155,11 +173,6 @@ body.home.fixed .mini_main-header {
 }
 .fixed .mini_blue-man {
   	opacity:1;
-}
-header h1 {
-	display: inline-block;
-    vertical-align: top;
-    padding-top: 5px;
 }
 /* ------------------------------------------------
  Main Nav

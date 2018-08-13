@@ -15,7 +15,7 @@
 
         	<div class="mini_logo">
 
-    			<a href="<?php bloginfo('url'); ?>"><h1><img src="<?php bloginfo('stylesheet_directory'); ?>/img/miniman-word-logo-small.png" alt="Miniman Web Design - Return Home"></h1></a>
+    			<a href="<?php bloginfo('url'); ?>"><h1><img src="<?php bloginfo('stylesheet_directory'); ?>/img/miniman-logo-round.png" alt="Miniman Web Design - Return Home">Miniman</h1></a>
 
         	</div>
 
@@ -33,13 +33,4 @@
 
         </div>
 
-       <div style="display:none;"> 
-
-      <a href="http://pharmacy-no-rx.net/levitra_generic.html">http://pharmacy-no-rx.net/levitra_generic.html</a>
-
-     </div>
-
     </header>
-
-        
-

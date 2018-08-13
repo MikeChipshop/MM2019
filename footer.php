@@ -164,12 +164,6 @@
 
 </div>
 
-<?php if ( current_user_can( 'manage_options' ) ) { ?>
-
-<div style="position:fixed;bottom:0px;right:40px;width:150px;padding:10px;background-color:#fff;color:#000;"><?php echo get_template_id() ?></div>
-
-<?php } ?>
-
 <?php wp_footer(); ?>
 
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>

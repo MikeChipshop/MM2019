@@ -139,19 +139,11 @@
             <h1>Updates from the blog</h1>
 
             <ul class="mini_updates-list">
-
             	<?php $footer_query = new WP_Query('posts_per_page=5'); while($footer_query->have_posts()) : $footer_query->the_post(); ?>
-
                     <li class="mini_update-item">
-
                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-
-                        <a href="<?php the_permalink(); ?>" class="mini_footer-read-more">Read more &raquo;</a>
-
                     </li>
-
                 <?php endwhile; ?>
-
             </ul>
 
             </div>

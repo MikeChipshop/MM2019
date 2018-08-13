@@ -1353,7 +1353,7 @@ body.home .mini_main-footer {
     text-align: right;
 }
 .mini_update-item {
-    margin: 20px 0px;
+    padding: 0px 0px 20px 0px;
 	font-size:12px;
 }
 .mini_update-item:first-child {
@@ -1363,14 +1363,13 @@ body.home .mini_main-footer {
 	margin-bottom:0px;
 }
 .mini_update-item h2 {
-	font-size:18px;
-	padding-bottom:10px;
+	font-size:15px;
 }
-.mini_update-item .mini_footer-read-more {
-	color:#fff;
+.mini_update-item h2 a {
+	color:#b1b1b1;
 }
-.mini_update-item .mini_footer-read-more:hover {
-	color:#2d9ec8;
+.mini_update-item h2 a:hover {
+	color:#2e9dc7;
 }
 .mini_footer-opening-hours {
 	padding-bottom:40px;

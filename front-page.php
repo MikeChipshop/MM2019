@@ -14,7 +14,7 @@
             		<?php the_field('home_page_intro'); ?>
             	</div>
                 <div class="mini_home-intro-img">
-            		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/mike-avatar.jpg" alt="Mike Bishop is Miniman Web Design - A Freelance Web Design and developer based in Stirlingshire, Scotland" />
+            		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/mike-avatar.jpg" alt="Mike Bishop aka 'Miniman' - UK Freelance Web Designer and developer based in Stirlingshire, Scotland" />
             	</div>
             </div>
         </section>
@@ -35,14 +35,16 @@
                     <li><a href="/website-consultancy" title="Miniman Web Design - Consultancy Services"><i class="fa fa-user"></i>Consultancy</a></li>
                 </ul>
             </div>
-        </section>     
+        </section>
         <section class="mini_section-about mini_section">
           <div class="mini_about-content">
             <div class="mini_location">
             	<h1>Where to find me</h1>
-            	<p>Miniman web design is based in the beautiful surroundings of the Loch Lomond and Trossachs National Park, found in Stirlingshire in Scotland's central belt.</p>
-                <p>The location is the perfect mix of quiet seclusion and ease of access to Scotlands major cities of, Glasgow, Edinburgh and Stirling, making us well positioned for clients</p>
-                <a class="mini_view-map" target="_blank" href="https://www.google.co.uk/maps/place/Miniman+Web+Design/@56.1902707,-4.5656766,11.75z/data=!4m2!3m1!1s0x488856cfc44cfe4d:0xb45410f977f52ac8">Find us on google Maps</a>
+            	<p>I'm based in the beautiful surroundings of the Loch Lomond and Trossachs National Park, found in Stirling within Scotland's central belt.</p>
+                <p>The location is the perfect mix of quiet seclusion and ease of access to Scotlands major cities of, Glasgow, Edinburgh and Stirling.</p>
+                <p>I work with a broad spectrum of clients across The UK and Europe as well as on a global scale with clients as far away as California and New Zealand.<br />
+                With a modern approach to virtual working I'm able to work closely with clients to understand exactly what they want and need and we're able to work together to deliver the final product.</p>
+                <a class="mini_view-map" target="_blank" href="https://www.google.co.uk/maps/place/Miniman+Web+Design/@56.1902707,-4.5656766,11.75z/data=!4m2!3m1!1s0x488856cfc44cfe4d:0xb45410f977f52ac8">Find me on google Maps</a>
             </div>
           </div>
         </section>
@@ -50,7 +52,7 @@
         	<div class="mini_contact-content">
             	<h1>How to contact me</h1>
             	<p>I want it to be as easy as possible to contact me. The quickest method is by email at <a href="mailto:hello@miniman-webdesign.co.uk" title="Miniman Web Design Contact Email">hello@miniman-webdesign.co.uk</a> but feel free to use your method of choice.</p>
-                <p>A full selection of contact methods can be found on my <a href="http://miniman-webdesign.co.uk/contact" title="Contact me">contact page</a>.</p>	
+                <p>A full selection of contact methods can be found on my <a href="http://miniman-webdesign.co.uk/contact" title="Contact me">contact page</a>.</p>
                 <a href="http://miniman-webdesign.co.uk/contact" title="Go to Contact Page" class="mini_fp-contact-button">contact me</a>
             </div>
         </section>
@@ -58,13 +60,13 @@
             	<div class="mini_wrap">
                 	<h1>My Portfolio</h1>
                     <ul>
-                    	<?php 
+                    	<?php
 							query_posts( array(
 								'post_type' => array( 'portfolio' ),
 								'orderby' => 'RAND',
 							)
-							); 
-							if ( have_posts() ) { while ( have_posts() ) : the_post(); 
+							);
+							if ( have_posts() ) { while ( have_posts() ) : the_post();
 						?>
                             <li>
                                 <div class="mini_home-portfolio-img">
@@ -77,5 +79,5 @@
                         <?php endwhile; }; wp_reset_query(); ?>
                     </ul>
                 </div>
-            </section>     
+            </section>
 <?php get_footer(); ?>

@@ -166,7 +166,7 @@
 
 	<div class="mini_wrap">
 
-		Websites &hearts; MMiniman &copy; <?php echo date("Y"); ?>
+		Websites &hearts; Miniman &copy; <?php echo date("Y"); ?>
 
     </div>
 

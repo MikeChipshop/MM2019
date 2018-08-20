@@ -1138,13 +1138,11 @@ span.wpcf7-not-valid-tip {
 	position:relative;
 }
 .rte p {
-	margin:15px 0px;
-}
-.rte p:first-child {
-	margin-top:0px;
+	padding-bottom:15px;
+	margin-bottom:0px;
 }
 .rte p:last-child {
-	margin-bottom:0px;
+	padding-bottom:0px;
 }
 .rte strong {
 	font-weight:bold;
@@ -1277,11 +1275,17 @@ color:#2e9dc7;
 	display:block;
 	margin: 0 auto;
 }
+.rte img {
+	margin:40px 0px;
+}
 .rte .wp-caption {
-	border: 1px solid #ccc;
     text-align: center;
     font-size: 14px;
 	max-width:100%;
+	margin:40px 0px;
+}
+.rte .wp-caption img {
+	margin:0px 0px;
 }
 .rte .wp-caption-text {
 	padding:0px 10px 10px 10px;

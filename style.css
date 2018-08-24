@@ -208,6 +208,9 @@ body.home.fixed .mini_main-header {
 .mini_main-nav li a {
 	color:#fff;
 }
+.mini_main-nav li:last-child a {
+	color:#E89600;
+}
 .mini_main-nav li.current-menu-item:after,
 .mini_main-nav li.current_page_item:after {
 	top: 140%;

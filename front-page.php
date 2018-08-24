@@ -37,7 +37,7 @@
                 </ul>
             </div>
         </section>
-        <section class="mini_section-about mini_section">
+        <section class="mini_section-about mini_section" id="mini_about-home-section">
           <div class="mini_about-content">
             <div class="mini_location">
             	<h1>Where to find me</h1>

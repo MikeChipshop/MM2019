@@ -33,4 +33,11 @@ jQuery(document).ready(function( $ ) {
 		$(this).nextAll('ul').slideDown(500);
 	  }
 	});
+
+
+	$('.mini_welcome-intro button').click(function() {
+		$('html,body').animate({
+			scrollTop: $("#mini_about-home-section").offset().top
+		}, 'slow');
+	});
 });

@@ -246,7 +246,7 @@ body.home.fixed .mini_main-header {
 }
 
 .mini_section {
-	padding:100px 20px;
+	padding:160px 20px;
 	line-height:140%;
 }
 .mini_section h1 {
@@ -340,7 +340,7 @@ h3.fade-in {
 	color: #fff;
 }
 .mini_welcome-intro h2 {
-	font-size:26px;
+	font-size:22px;
 	line-height: 140%;
 	font-weight:300;
 }
@@ -363,6 +363,15 @@ h3.fade-in {
 	display:inline-block;
 	margin:0px 5px;
 }
+.mini_welcome-intro button {
+	background: transparent;
+    padding: 10px 15px;
+    margin-top: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
 .mini_welcome-image {
 	-webkit-box-flex: 1;
   	-moz-box-flex: 1;
@@ -381,7 +390,7 @@ h3.fade-in {
 .mini_home-intro {
     font-size: 18px;
     line-height: 140%;
-	padding: 100px 20px;
+	padding: 160px 20px;
     background-color: #1f1f1f;
     color: #fff;
 }
@@ -418,9 +427,9 @@ h3.fade-in {
 /* New Services */
 
 .mini_home-services {
-	background-color: #23282D;
-    padding: 100px 0px 60px 0px;
-    color: #fff;
+	background-color: #f7f7f7;
+    padding: 160px 0px 120px 0px;
+    color: #4c4c4c;
 }
 .mini_home-services .mini_wrap {
 	max-width:900px;
@@ -447,14 +456,17 @@ h3.fade-in {
 	display: block;
     font-size: 60px;
 	margin-bottom:10px;
+	color: #2d9ec8;
 }
 .mini_home-services a {
-	color:#fff;
+	color:#4c4c4c;
 	-webkit-transition: all 0.3s ease-in-out;
   	-moz-transition: all 0.3s ease-in-out;
   	-ms-transition: all 0.3s ease-in-out;
   	-o-transition: all 0.3s ease-in-out;
-  	transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font-weight: bold;
+    line-height: 1.2;
 }
 .mini_home-services a:hover {
 	color:#2d9ec8;

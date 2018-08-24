@@ -19,7 +19,7 @@
             	</div>
             </div>
         </section>
-		<section class="mini_home-services">
+		<section class="mini_home-services" id="mini_services-home-section">
         	<div class="mini_wrap">
             	<h1>Services I offer</h1>
                 <div class="mini_services-intro">
@@ -37,7 +37,7 @@
                 </ul>
             </div>
         </section>
-        <section class="mini_section-about mini_section" id="mini_about-home-section">
+        <section class="mini_section-about mini_section">
           <div class="mini_about-content">
             <div class="mini_location">
             	<h1>Where to find me</h1>

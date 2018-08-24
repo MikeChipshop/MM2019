@@ -37,7 +37,7 @@ jQuery(document).ready(function( $ ) {
 
 	$('.mini_welcome-intro button').click(function() {
 		$('html,body').animate({
-			scrollTop: $("#mini_about-home-section").offset().top
+			scrollTop: $("#mini_services-home-section").offset().top
 		}, 'slow');
 	});
 });

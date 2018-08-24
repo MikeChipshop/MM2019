@@ -48,6 +48,8 @@ body {
 	color:#757575;
 	background-color:#fff;
 	font-weight:400;
+}
+body.home {
 	background: url(/wp-content/themes/miniman2015/img/welcome-background.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;

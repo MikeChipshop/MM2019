@@ -999,6 +999,16 @@ body.page .mini_page-header h1 {
 	float:left;
 	padding-right:30px;
 }
+.rte .mini_contact-methods ul {
+	list-style-type:none;
+	margin:0px;
+	padding: 20px 0px 0px 0px;
+}
+.rte .wpcf7-form ol {
+	list-style-type:none;
+	margin:0px;
+	padding: 20px 0px 0px 0px;
+}
 .mini_contact-form {
 	float:left;
 	width:50%;

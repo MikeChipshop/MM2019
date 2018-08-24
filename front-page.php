@@ -56,28 +56,12 @@
                 <a href="http://miniman-webdesign.co.uk/contact" title="Go to Contact Page" class="mini_fp-contact-button">contact me</a>
             </div>
         </section>
-			<section class="mini_home-portfolio">
-            	<div class="mini_wrap">
-                	<h1>My Portfolio</h1>
-                    <ul>
-                    	<?php
-							query_posts( array(
-								'post_type' => array( 'portfolio' ),
-								'orderby' => 'RAND',
-							)
-							);
-							if ( have_posts() ) { while ( have_posts() ) : the_post();
-						?>
-                            <li>
-                                <div class="mini_home-portfolio-img">
-                                    <!-- <a href="<?php the_permalink(); ?>">--><?php the_post_thumbnail( 'portfolio' ); ?><!-- </a>-->
-                                </div>
-                                <div class="mini_home-portfolio-content">
-                                    <h2><!-- <a href="<?php the_permalink(); ?>">--><?php the_title(); ?><!-- </a>--></h2>
-                                </div>
-                            </li>
-                        <?php endwhile; }; wp_reset_query(); ?>
-                    </ul>
-                </div>
-            </section>
+
+        <!--
+        <section class="mini_home-portfolio">
+            <div class="mini_wrap">
+                <h1>My Portfolio</h1>
+            </div>
+        </section>
+        -->
 <?php get_footer(); ?>

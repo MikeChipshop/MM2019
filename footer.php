@@ -92,22 +92,5 @@
 <?php wp_footer(); ?>
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,700' rel='stylesheet' type='text/css'>
-<?php if(is_front_page()):?>
-    <script>
-    jQuery(document).ready(function( $ ) {
-        $('.mini_home-portfolio ul').owlCarousel({
-            loop:true,
-            margin:40,
-            nav:true,
-            navText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-            responsive:{
-                0:{items:1},
-                600:{items:3},
-                1000:{items:3}
-            }
-        })
-    });
-    </script>
-<?php endif; ?>
 </body>
 </html>

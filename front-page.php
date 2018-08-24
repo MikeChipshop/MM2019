@@ -5,7 +5,7 @@
         	<div class="mini_welcome-intro">
             	<h1 class="fade-in">Creating Your Beautiful, High Performing Online presence</h1>
                 <h2 class="fade-in">Miniman | Mike Bishop, UK Freelance Web Designer &amp; Developer based in Stirling</h2>
-                <button>Learn What I Can Do For You</button>
+                <button class="fade-in">Learn What I Can Do For You</button>
             </div>
         </div>
     </section>

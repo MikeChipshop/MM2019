@@ -295,6 +295,11 @@ h3.fade-in {
 	-moz-animation-delay:1s;
 	animation-delay: 1s;
 }
+button.fade-in {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay:1s;
+	animation-delay: 1s;
+}
 .mini_welcome {
 	height: 100vh;
 }

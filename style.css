@@ -48,6 +48,9 @@ body {
 	color:#757575;
 	background-color:#fff;
 	font-weight:400;
+	background: url(/wp-content/themes/miniman2015/img/welcome-background.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'bariol_regularregular';
@@ -300,9 +303,6 @@ h3.fade-in {
 	animation-delay: 1s;
 }
 .mini_welcome {
-	background:url(img/welcome-background.jpg) no-repeat center center;
-	background-size:cover;
-	background-attachment:fixed;
 	height: 100vh;
 }
 .mini_welcome-overlay {
@@ -479,10 +479,7 @@ h3.fade-in {
 }
 /* About */
 .mini_section-about {
-	background:#fff url(img/banner-bg.jpg) no-repeat center center;
-	background-size:cover;
 	color:#fff;
-	background-attachment: fixed;
 }
 .mini_about-content {
 	max-width:900px;

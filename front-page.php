@@ -44,7 +44,7 @@
                 <p>The location is the perfect mix of quiet seclusion and ease of access to Scotlands major cities of, Glasgow, Edinburgh and Stirling.</p>
                 <p>I work with a broad spectrum of clients across The UK and Europe as well as on a global scale with clients as far away as California and New Zealand.<br />
                 With a modern approach to virtual working I'm able to work closely with clients to understand exactly what they want and need and we're able to work together to deliver the final product.</p>
-                <a class="mini_view-map" target="_blank" href="https://www.google.co.uk/maps/place/Miniman+Web+Design/@56.1902707,-4.5656766,11.75z/data=!4m2!3m1!1s0x488856cfc44cfe4d:0xb45410f977f52ac8">Find me on google Maps</a>
+                <a class="mini_view-map" target="_blank" rel="noopener" href="https://www.google.co.uk/maps/place/Miniman+Web+Design/@56.1902707,-4.5656766,11.75z/data=!4m2!3m1!1s0x488856cfc44cfe4d:0xb45410f977f52ac8">Find me on google Maps</a>
             </div>
           </div>
         </section>

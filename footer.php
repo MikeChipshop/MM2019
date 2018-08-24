@@ -60,10 +60,10 @@
                 </ol>
                 <h1>Also available socially</h1>
                 <ul class="mini_footer-social-icons">
-                    <li><a href="https://plus.google.com/+Miniman-webdesignCoUk" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="https://www.facebook.com/MinimanWebDesign" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-                    <li><a href="https://twitter.com/minimanwd" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-                    <li><a href="https://uk.linkedin.com/in/mikestevebishop" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://plus.google.com/+Miniman-webdesignCoUk" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.facebook.com/MinimanWebDesign" target="_blank" rel="noopener"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href="https://twitter.com/minimanwd" target="_blank" rel="noopener"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="https://uk.linkedin.com/in/mikestevebishop" target="_blank" rel="noopener"><i class="fa fa-linkedin-square"></i></a></li>
                 </ul>
                 <h1>Service Areas</h1>
                 I work within a variety of <a href="http://miniman-webdesign.co.uk/locations">locations</a>. From <a href="http://miniman-webdesign.co.uk/locations/freelance-web-design-stirlingshire/">Stirlingshire</a> to <a href="http://miniman-webdesign.co.uk/locations/freelance-web-design-glasgow/">Glasgow</a> and beyond. If you don't see yours, <a href="http://miniman-webdesign.co.uk/contact">let me know</a>.<br>I also work remotely.

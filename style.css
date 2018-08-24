@@ -325,7 +325,9 @@ h3.fade-in {
   	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
-    height: 100%;
+	height: 100%;
+	position: relative;
+    z-index: 3;
 }
 .mini_welcome-intro {
 	color:#fff;

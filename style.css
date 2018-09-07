@@ -1011,6 +1011,26 @@ body.page .mini_page-header h1 {
 .page-template-tpl-page-service aside a {
 	color:#fff;
 }
+
+.mm18_services-menu aside li {
+	position:relative;
+}
+.mm18_services-menu aside li.current {
+	background-color:#2b2b2c;
+}
+.mm18_services-menu aside li.current::after {
+    content: "";
+    position: absolute;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    right: -30px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #2b2b2c;
+}
 /* ------------------------------------------------
  Contact
 ------------------------------------------------ */

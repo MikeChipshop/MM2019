@@ -3,16 +3,17 @@
     	<div class="mini_welcome-overlay"></div>
     	<div class="mini_wrap">
         	<div class="mini_welcome-intro">
-            	<h1 class="fade-in">Creating Your Beautiful, High Performing Online presence</h1>
-                <h2 class="fade-in">Miniman | Mike Bishop, UK Freelance Web Designer &amp; Developer based in Stirling</h2>
-                <button class="fade-in">Learn What I Can Do For You</button>
+            	<h1 class="fade-in"><?php the_field('fp_hero_title'); ?></h1>
+                <h2 class="fade-in"><?php the_field('fp_hero_subtitle'); ?></h2>
+                <button class="fade-in"><?php the_field('fp_hero_button_text'); ?></button>
             </div>
         </div>
     </section>
     	<section class="mini_home-intro clearfix">
         	<div class="mini_wrap">
         		<div class="mini_home-intro-copy">
-            		<?php the_field('home_page_intro'); ?>
+                    <h1><?php the_field('fp_into_title'); ?></h1>
+            		<?php the_field('fp_intro_content'); ?>
             	</div>
                 <div class="mini_home-intro-img">
             		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/mike-avatar.jpg" alt="Mike Bishop aka 'Miniman' - UK Freelance Web Designer and developer based in Stirlingshire, Scotland" />
@@ -21,12 +22,8 @@
         </section>
 		<section class="mini_home-services" id="mini_services-home-section">
         	<div class="mini_wrap">
-            	<h1>Services I offer</h1>
-                <div class="mini_services-intro">
-                	<p>I don't just offer web design in Stirlingshire but also a whole host of web based and digital services.</p>
-                	<p>On top of offering web design and web development services i also offer a range of Sitecare packages designed to keep your data and your website backed-up, secure and safe.</p>
-                	<p>I also offer a consultancy service to make sure you're getting the best return possible from your online presence.</p>
-                </div>
+            	<h1><?php the_field('fp_services_title'); ?></h1>
+                <div class="mini_services-intro"><?php the_field('fp_services_content'); ?></div>
             	<ul class="clearfix">
                 	<li><a href="/web-design/" title="Miniman Web Design - Web Design Services"><i class="fa fa-pencil-square-o"></i>Web Design</a></li>
                     <li><a href="/web-development" title="Miniman Web Design - Web Development Services"><i class="fa fa-cogs"></i>Web Development</a></li>

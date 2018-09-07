@@ -1,8 +1,8 @@
-<?php 
+<?php
 /*
 * Template Name: Service Page
 */
-get_header(); 
+get_header();
 ?>
 	<?php if ( have_posts() ) { while ( have_posts() ) : the_post(); ?>
         <article id="mini_post-<?php the_ID(); ?>" <?php post_class('mini_page clearfix'); ?>>
@@ -11,9 +11,9 @@ get_header();
                 <div class="mini_service-banner">
             		<?php the_field('service_icon'); ?>
             	</div>
-            </header>           
+            </header>
             <div class="mini_wrap">
-            <aside>
+            <aside class="mm18_services-menu">
             	<ul>
                     	<li>
                         	<a href="/web-design/">
@@ -28,8 +28,8 @@ get_header();
                         	<div class="mini_services-overview-list-cont">
                             	<i class="fa fa-cogs"></i>
                                 <h1>Web Development</h1>
-                        	</div> 
-                            </a>   
+                        	</div>
+                            </a>
                         </li>
                     	<li>
                         	<a href="/wordpress">
@@ -66,10 +66,10 @@ get_header();
                     </ul>
             </aside>
             <main class="mini_page rte">
-                
+
                     <?php the_content(); ?>
             </main>
-            
+
             </div>
         </article>
     <?php endwhile; }; ?>

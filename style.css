@@ -695,7 +695,7 @@ a.mini_view-map:hover {
     padding-bottom: 50px;
 	background-color:#2E9DC7;
 	color:#fff!important;
-	font-family: 'bariol_regularregular';
+	font-family: 'fira_regular';
 	position:relative;
 	z-index:1;
 }
@@ -756,7 +756,7 @@ a.mini_view-map:hover {
     padding-bottom: 50px;
     background-color: #2E9DC7;
     color: #fff!important;
-    font-family: 'bariol_regularregular';
+    font-family: 'fira_regular';
 	margin-bottom:60px;
 }
 .mini_blog-index-header h1 {
@@ -1227,7 +1227,7 @@ span.wpcf7-not-valid-tip {
 	font-style:italic;
 }
 .rte h1 {
-	font-family: 'bariol_regularregular';
+	font-family: 'fira_regular';
 	font-weight:100;
 	line-height:120%;
 	color: #999;
@@ -1235,7 +1235,7 @@ span.wpcf7-not-valid-tip {
 	margin:20px 0px 10px 0px;
 }
 .rte h2 {
-	font-family: 'bariol_regularregular';
+	font-family: 'fira_regular';
 	font-weight:100;
 	line-height:120%;
 	color: #6d6d6d;
@@ -1249,7 +1249,7 @@ span.wpcf7-not-valid-tip {
 .rte h3,
 .rte h4,
 .rte h5 {
-    font-family: 'bariol_regularregular';
+    font-family: 'fira_regular';
 	font-weight:bold;
 }
 .rte h1 {
@@ -1257,6 +1257,10 @@ span.wpcf7-not-valid-tip {
 }
 .rte h3 {
 	font-size:20px;
+	padding-top: 20px;
+    padding-bottom: 5px;
+	color: #2f2f2f;
+	font-weight:normal;
 }
 .rte h4 {
 	font-size:14px;

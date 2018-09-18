@@ -15,7 +15,9 @@
 					<?php endif; ?>
 						<div class="mini_inner-wrap">
             				<h1 class="mini_page-title"><?php the_title(); ?></h1>
-							<h2><?php the_field('sub_header'); ?></h2>
+							<?php if(get_field('sub_header')): ?>
+								<h2><?php the_field('sub_header'); ?></h2>
+							<?php endif; ?>
 						</div>
 					</header>
 					<div class="mini_inner-wrap">
@@ -24,8 +26,9 @@
 	                	</main>
                         <aside class="mini_post-suffix">
                         	<h1>About the Author - Mike Bishop</h1>
-                            <p>I'm the owner, lead developer and lead designer of Miniman Web Design. A web Design, Web Development freelance agency based in Kinlochard, Stirlingshire, Scotland.</p>
+                            <p>I'm a UK based freelance web Designer and Web Developer living in Stirling, Scotland and Miniman is my personal brand.</p>
                             <p>If you're looking for a freelancer to take on your next project, then drop me a line over at <a href="http://miniman-webdesign.co.uk/contact">my contact page</a>, and let's have a chat!</p>
+							<p>I can also be found at the <a href="https://strathardhub.com" title="Visit Strathard Hub">Strathard Business Hub, Aberfoyle, Stirling</a>, so pop in for a coffee if you're passing.</p>
                             <div class="mini_suffix-other">
                             	More posts from Mike:
 

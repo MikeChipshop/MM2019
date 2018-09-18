@@ -297,3 +297,50 @@ function register_cpt_portfolio() {
 
     register_post_type( 'portfolio', $args );
 }
+
+/***************************************************
+/ Industry News Post Type
+/***************************************************/
+
+add_action( 'init', 'register_cpt_news' );
+
+function register_cpt_news() {
+
+    $labels = array(
+        'name' => _x( 'News', 'news' ),
+        'singular_name' => _x( 'News', 'news' ),
+        'add_new' => _x( 'Add New', 'news' ),
+        'add_new_item' => _x( 'Add New', 'news' ),
+        'edit_item' => _x( 'Edit', 'news' ),
+        'new_item' => _x( 'New', 'news' ),
+        'view_item' => _x( 'View', 'news' ),
+        'search_items' => _x( 'Search', 'news' ),
+        'not_found' => _x( 'None found', 'news' ),
+        'not_found_in_trash' => _x( 'None found in bin', 'news' ),
+        'parent_item_colon' => _x( 'Parent:', 'news' ),
+        'menu_name' => _x( 'News', 'news' ),
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'hierarchical' => true,
+        'description' => 'Post type for news',
+        'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'comments', 'revisions' ),
+        'taxonomies' => array('category'),
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'menu_position' => 20,
+        'show_in_nav_menus' => true,
+        'publicly_queryable' => true,
+        'exclude_from_search' => false,
+        'has_archive' => true,
+        'query_var' => true,
+        'can_export' => true,
+		'menu_icon' => 'dashicons-awards',
+        'rewrite' => array('slug' => 'news', 'with_front' => FALSE),
+        'capability_type' => 'post',
+        'show_in_rest' => true
+    );
+    register_post_type( 'news', $args );
+}

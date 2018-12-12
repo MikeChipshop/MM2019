@@ -80,6 +80,7 @@
                     <?php endwhile; ?>
                 </ul>
             </div>
+            <div class="grecaptcha-badge" data-style="inline" data-children-count="1"><div class="grecaptcha-logo"><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lehg4AUAAAAANnDkETDDWXVLpEjwCmOHxBrmu_h&amp;co=aHR0cHM6Ly9taW5pbWFuLXdlYmRlc2lnbi5jby51azo0NDM.&amp;hl=en&amp;v=v1543818755456&amp;size=invisible&amp;cb=q5yt715ll1a" width="256" height="60" role="presentation" name="a-whul5g9n0ki0" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" data-children-count="0"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div>
         </div>
     </div>
 </footer>

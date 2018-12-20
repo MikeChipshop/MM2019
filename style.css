@@ -197,7 +197,7 @@ body.home.fixed .mini_main-header {
 	color:#fff;
 }
 .mini_main-nav li:last-child a {
-	color:#E89600;
+	color:#E91E63;
 }
 .mini_main-nav li.current-menu-item:after,
 .mini_main-nav li.current_page_item:after {
@@ -302,7 +302,11 @@ button.fade-in {
 }
 .mini_welcome {
 	height: 100vh;
-	background-color: #28292b;
+    background: #28292b;
+    background: -moz-linear-gradient(to top right, #1f1f1f 50%, #1f1f1f 50%, #28292b 50%);
+    background: -webkit-linear-gradient(to top right, #1f1f1f 50%,#1f1f1f 50%,#28292b 50%);
+    background: linear-gradient(to top right, #1f1f1f 50%,#1f1f1f 50%,#28292b 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#28292b',GradientType=1 );
 }
 .mini_welcome-overlay {
 	position: absolute;
@@ -343,7 +347,7 @@ button.fade-in {
 	font-size:22px;
 	line-height: 140%;
 	font-weight:300;
-	color:#2fa0ca;
+	color:#E91E63;
 }
 .mini_welcome-intro h3 ul {
 	padding-top:10px;
@@ -365,13 +369,14 @@ button.fade-in {
 	margin:0px 5px;
 }
 .mini_welcome-intro button {
-	background: transparent;
+	background: #E91E63;
     padding: 10px 15px;
     margin-top: 30px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: #fff;
+    border: 1px solid #f8417f;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 .mini_welcome-image {
 	-webkit-box-flex: 1;

@@ -1315,13 +1315,13 @@ span.wpcf7-not-valid-tip {
 	margin:10px;
 	padding:10px;
 	padding-left:20px;
-	font-size:18px;
-	font-style:italic;
+    font-size:32px;
+    font-weight:bold;
 	color: #999;
 	line-height:140%;
 }
-.rte blockquote p:last-child {
-	margin-bottom:0px;
+.rte blockquote p {
+	padding-bottom:0px;
 }
 .rte blockquote p:first-child:before {
 	content: '\f106';
@@ -1344,6 +1344,15 @@ color:#2e9dc7;
   margin-left: 10px;
 	font-size: 22px;
 	color:#2e9dc7;
+}
+.rte blockquote cite {
+    padding-left: 31px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
 }
 .rte .alignleft {
 	float:left;

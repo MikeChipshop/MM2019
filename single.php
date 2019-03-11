@@ -34,9 +34,14 @@
 
                             	<?php $suffix_query = new WP_Query('posts_per_page=1&orderby=rand'); while($suffix_query->have_posts()) : $suffix_query->the_post(); ?>
                                 	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-                                <?php endwhile; ?>
+                                <?php endwhile; wp_reset_query(); ?>
                             </div>
                         </aside>
+                        <section class="mm19_comments" id="comments">
+                            <div class="mm19_comments-wrap">
+                            <?php comments_template( '', true ); ?>
+                            </div>
+                        </section>
                     </div>
             	<?php endwhile; ?>
 			</article>
